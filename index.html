@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>JQuery practice</title>
+</head>
+<body>
+	<div class="wrapper">
+		<fieldset>
+			<legend>ToDo-List</legend>
+				<div class="todo-list">
+					<div class="todo-item">
+						<p class="item-head"></p>
+						<p class="item-body"></p>
+					<input type='checkbox' name='todo-check' value=''>
+				</div></div>
+				<br />
+				<input type="text" name="name" placeholder="Заголовок заметки">
+				<br />
+				<input type="text" name="body" id = "input-body" placeholder="Текст заметки">
+				<br>
+				<input type="button" name="add" value="Добавить">
+				<input type="button" name="del" value="Удалить последнюю заметку">
+				<br />
+				<input type="button" name="del-check" id="del-check" value="Удалить отмеченные">
+				<input type="button" id="check-all" value="Отметить\Снять выделение">
+		</fieldset>
+	</div>
+  <!-- Подключение jquery -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

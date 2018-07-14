@@ -1,0 +1,40 @@
+.body {
+  background-color: #ddd; }
+
+.wrapper {
+  width: 535px;
+}
+
+.todo-list {
+  width: 505px;
+  height: 300px;
+  border: 1px solid black;
+  overflow: overlay;
+}
+
+.item-head, .item-body {
+  border: 1px dashed red;
+  margin: 1px;
+  width: 100%;
+  height: 20px;
+}
+
+.item-body {
+  height: 50px;
+}
+
+input[name='name'] {
+  margin-top: 5px;
+}
+
+.todo-item {
+border: 1px solid black;
+margin: 5px;
+padding: 5px;
+width: 100px;
+display: inline-block;
+}
+
+.todo-item-check {
+opacity: 0.5;
+}
